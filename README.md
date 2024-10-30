@@ -13,10 +13,12 @@
 
 `bash`
 
-    git config --global user.email "you@example.com"
-
-
-    git config --global user.name "Your Name"
+```
+git config --global user.email "you@example.com"
+```
+```
+git config --global user.name "Your Name"
+```
 
 
 ## 커밋 하기
