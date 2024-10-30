@@ -18,3 +18,5 @@ bash
 ```
   git config --global user.name "Your Name"
 ```
+
+## 커밋 하기
