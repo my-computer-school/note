@@ -10,7 +10,7 @@ Host github.com
   User git
   Port 443
 ```
-<br>
+<br/>
 bash
 ```
   git config --global user.email "you@example.com"
