@@ -1,7 +1,7 @@
 ## github ssh를 사용하여 커밋하는 방법 
 
 + os : ubuntu
-+path : /home/ubuntu/.ssh/config
++ path : /home/ubuntu/.ssh/config
 
 ```
 Host github.com
