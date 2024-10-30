@@ -106,3 +106,99 @@ function greet() {
 마크다운 파일(.md)에서 위의 방법을 사용하여 코드 블록을 작성할 수 있습니다. 마크다운을 지원하는 에디터나 플랫폼(예: GitHub, MarkdownPad, Typora 등)에서 작성한 내용을 확인할 수 있습니다.
 
 이렇게 마크다운 형식에서 코드 블록을 작성하는 방법을 알아보았습니다. 추가적인 질문이 있으면 언제든지 말씀해 주세요!
+
+
+
+마크다운에서 코드 블록에 제목을 추가하는 방법은 직접적으로 지원되지 않지만, 몇 가지 방법을 사용하여 코드 블록에 제목을 추가할 수 있습니다. 아래에서 몇 가지 방법을 설명하겠습니다.
+
+### 1. 주석을 사용하여 제목 추가
+
+코드 블록 위에 주석 형태로 제목을 추가할 수 있습니다. 주석은 코드 블록의 내용에 영향을 주지 않으므로, 코드 블록의 설명이나 제목을 추가하는 데 유용합니다.
+
+#### 예시:
+```markdown
+# Python 함수 예시
+```python
+def hello_world():
+    print("Hello, World!")
+```
+```
+
+#### 결과:
+# Python 함수 예시
+```python
+def hello_world():
+    print("Hello, World!")
+```
+
+### 2. 제목을 별도의 텍스트로 작성
+
+코드 블록 위에 제목을 일반 텍스트로 작성하여 코드 블록과 함께 표시할 수 있습니다. 이 방법은 제목을 강조할 수 있는 좋은 방법입니다.
+
+#### 예시:
+```markdown
+## Python 함수 예시
+
+```python
+def hello_world():
+    print("Hello, World!")
+```
+```
+
+#### 결과:
+## Python 함수 예시
+
+```python
+def hello_world():
+    print("Hello, World!")
+```
+
+### 3. 수평선 사용
+
+제목과 코드 블록 사이에 수평선을 추가하여 시각적으로 구분할 수 있습니다.
+
+#### 예시:
+```markdown
+## Python 함수 예시
+
+---
+
+```python
+def hello_world():
+    print("Hello, World!")
+```
+```
+
+#### 결과:
+## Python 함수 예시
+
+---
+
+```python
+def hello_world():
+    print("Hello, World!")
+```
+
+### 4. HTML 태그 사용
+
+마크다운에서는 HTML 태그를 사용할 수 있으므로, `<h3>` 태그와 같은 HTML 태그를 사용하여 제목을 추가할 수도 있습니다.
+
+#### 예시:
+```markdown
+<h3>Python 함수 예시</h3>
+
+```python
+def hello_world():
+    print("Hello, World!")
+```
+```
+
+#### 결과:
+<h3>Python 함수 예시</h3>
+
+```python
+def hello_world():
+    print("Hello, World!")
+```
+
+이와 같은 방법으로 마크다운에서 코드 블록에 제목을 추가할 수 있습니다. 추가적인 질문이 있으면 언제든지 말씀해 주세요!
