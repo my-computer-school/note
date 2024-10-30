@@ -3,14 +3,17 @@
 + os : ubuntu
 + path : /home/ubuntu/.ssh/config
 
+nano
 ```
 Host github.com
   HostName ssh.github.com
   User git
   Port 443
 ```
-
-```bash
+bash
+```
   git config --global user.email "you@example.com"
+```
+```
   git config --global user.name "Your Name"
 ```
