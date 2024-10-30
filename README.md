@@ -1,6 +1,6 @@
-## github ssh를 사용하여 커밋하는 방법 
+## github ssh commit
 
-+ os : ubuntu
++ os : ubuntu 24.04
 + path : /home/ubuntu/.ssh/config
 
 nano
@@ -10,7 +10,7 @@ Host github.com
   User git
   Port 443
 ```
-
+<br>
 bash
 ```
   git config --global user.email "you@example.com"
